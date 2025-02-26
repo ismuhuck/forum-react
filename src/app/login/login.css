@@ -1,0 +1,80 @@
+.login-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+.login-container {
+    align-self: center;
+    width: 60%;
+}
+
+.login-change {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.login-btn-con {
+    text-align: center;
+}
+.change-log {
+    margin-right: 10px;
+}
+.middle-line {
+    width: 1px;
+    height: 100px;
+    align-self: center;
+    background-color: rgba(228, 230, 235, .5);
+}
+.login-notes {
+    width: 30%;
+    align-self: center;
+}
+
+.common-cursor {
+    cursor: pointer;
+}
+
+
+/* .login-modal {
+    position: relative;
+} */
+.login-img {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 50px;
+    transform: translateY(-50%);
+    border-radius: 5px;
+}
+.login-form {
+    /* animation: 1s 1 alternate slidein; */
+}
+.login-form-log {
+    animation: 1s 1 alternate slidein;
+}
+.login-form-log-tran {
+
+    animation: 1s 1 alternate slideout;
+    display: none;
+}
+
+@keyframes slideout {
+    from {
+        margin-right: 0%;
+        opacity: 1;
+    }
+    to {
+        margin-right: 150%;
+        opacity: 0;
+    }
+}
+@keyframes slidein {
+    from {
+        margin-right: 150%;
+        opacity: 0;
+    }
+    to {
+        margin-right: 0%;
+        opacity: 1;
+    }
+}
